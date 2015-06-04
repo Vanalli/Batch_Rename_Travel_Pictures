@@ -1,0 +1,9 @@
+ExifTool /media/digikam/rawpeg/08/0807/080702_153429.cr2
+ExifTool -s "c:\ImageTestBatch\Celular Deni.mp4"
+
+Foto D7000: ExifTool "-filename<CreateDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\D7000.JPG"
+Video D7000: ExifTool "-filename<CreateDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\D7000.MOV"
+Foto Android: ExifTool "-filename<CreateDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\Celular Deni.jpg"
+Video Android: ExifTool "-filename<FileModifyDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\Celular Deni.mp4"
+Foto WP: ExifTool "-filename<CreateDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\Celular Meg.jpg"
+Video WP: Video Android: ExifTool "-filename<FileModifyDate" -d %Y%m%d_%H%M%S%%c.%%le  "c:\ImageTestBatch\Celular Meg.mp4"
